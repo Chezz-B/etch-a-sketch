@@ -12,16 +12,37 @@
   margin: auto;
   height: 500px;
   width: 500px;
+  /* border: solid black 1px; */
 }
 
 .item {
-  border: solid black;
+  border: solid black 1px;
   width: auto;
   height: auto;
 }
 
 #clearBtn {
   display: flex;
+  margin: 30px ;
+  padding: 10px;
+}
+
+#newGridBtn {
+  display: flex;
   margin: 30px auto;
   padding: 10px;
+}
+
+#slider {
+  display: flex;
+}
+
+#sliderInfo {
+  margin: 30px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
