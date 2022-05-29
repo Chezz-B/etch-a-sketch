@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  flex: center;
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: repeat(16, 16fr);
+  margin: 100px 300px;
+  /* padding: 100px; */
+  /* line-height: 0; */
+  /* flex-wrap: wrap; */
+}
+
+.item {
+  border: solid black;
+  padding: 20px;
+
+  /* display: inline-flex; */
+}
+
