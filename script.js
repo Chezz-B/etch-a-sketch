@@ -13,4 +13,13 @@ const container = document.getElementById("container");
   container.appendChild(item);
 };
 
+// const items = document.getElementsByClassName("item");
+
+const clearBtn = document.getElementById("clearBtn");
+clearBtn.addEventListener("click", function(){
+  const items = document.querySelectorAll(".item");
+  for(let i = 0; i < items.length; i++){
+    items[i].style.backgroundColor = "white";
+  }
+})
 

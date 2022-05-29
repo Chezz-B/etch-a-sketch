@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 #container {
@@ -8,16 +9,19 @@
   background-color: aliceblue;
   display: grid;
   grid-template-columns: repeat(16, 16fr);
-  margin: 100px 300px;
-  /* padding: 100px; */
-  /* line-height: 0; */
-  /* flex-wrap: wrap; */
+  margin: auto;
+  height: 500px;
+  width: 500px;
 }
 
 .item {
   border: solid black;
-  padding: 20px;
-
-  /* display: inline-flex; */
+  width: auto;
+  height: auto;
 }
 
+#clearBtn {
+  display: flex;
+  margin: 30px auto;
+  padding: 10px;
+}
